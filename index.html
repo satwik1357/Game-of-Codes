@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe Game</h1>
+    <div class="game-container">
+        <button id="start-button">Start Game</button>
+        <button id="reset-button">Reset Game</button>
+        <div class="board" id="board">
+            <!-- Create a 3x3 grid -->
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div id="result-popup" class="popup">
+            <div class="popup-content">
+                <span id="winner-text"></span>
+                <button id="close-popup">Close</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="leaderboard">
+        <h2>Leaderboard</h2>
+        <div id="leaderboard-content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
